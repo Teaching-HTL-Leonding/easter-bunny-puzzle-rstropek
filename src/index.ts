@@ -18,5 +18,33 @@ function setup() {
 
 function draw() {
     p.background("white");
-    p.image(bunnyImage, 0, 0);
+    p.stroke("white");
+    p.noFill();
+    p.strokeWeight(2);
+
+    // ZEILE 1
+    p.image(bunnyImage, 0, 0, 100, 100, 0, 0, 100, 100);
+    p.rect(0, 0, 100, 100);
+
+    p.image(bunnyImage, 100, 0, 100, 100, 100, 0, 100, 100);
+    p.rect(100, 0, 100, 100);
+
+    p.image(bunnyImage, 200, 0, 100, 100, 200, 0, 100, 100);
+    p.rect(200, 0, 100, 100);
+
+    p.image(bunnyImage, 300, 0, 100, 100, 300, 0, 100, 100);
+    p.rect(300, 0, 100, 100);
+
+    // ZEILE 2
+    p.image(bunnyImage, 0, 100, 100, 100, 0, 100, 100, 100);
+    p.rect(0, 100, 100, 100);
+
+    p.image(bunnyImage, 100, 100, 100, 100, 100, 100, 100, 100);
+    p.rect(100, 100, 100, 100);
+
+    p.image(bunnyImage, 200, 100, 100, 100, 200, 100, 100, 100);
+    p.rect(200, 100, 100, 100);
+
+    p.image(bunnyImage, 300, 100, 100, 100, 300, 100, 100, 100);
+    p.rect(300, 100, 100, 100);
 }

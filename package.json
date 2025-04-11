@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rainer Stropek",
   "license": "MIT",
   "description": "Starter Code for p5 + Vite + TypeScript",
   "devDependencies": {
